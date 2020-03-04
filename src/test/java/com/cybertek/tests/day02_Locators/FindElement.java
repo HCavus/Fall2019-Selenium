@@ -19,6 +19,6 @@ public class FindElement {
         WebElement emailBox=driver.findElement(By.id("okta-signin-username"));
         emailBox.sendKeys("halimeecavus@gmail.com");
         WebElement passwordBox=driver.findElement((By.id("okta-signin-password")));
-        passwordBox.sendKeys(("52"));
+        passwordBox.sendKeys(("********"));
     }
 }
