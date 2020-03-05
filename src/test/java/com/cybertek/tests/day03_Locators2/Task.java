@@ -1,13 +1,15 @@
-package com.cybertek.tests.day03_;
+package com.cybertek.tests.day03_Locators2;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.List;
-
 public class Task {
     /*
+    locators--> id, name, classname,
+    If class attributes value has a space or spaces,
+    driver can not locate the element
+
     Task:
     1.Go to amazon  https://www.amazon.com/
     2.Go to Ebay   https://www.ebay.com/
@@ -21,18 +23,18 @@ public class Task {
         driver.get("https://www.amazon.com/");
         driver.navigate().to("https://www.ebay.com/");
         driver.manage().window().maximize();
-        Thread.sleep(2000);
-
-       driver.findElement(By.id("gh-ac")).sendKeys("search");
-    driver.findElement((By.id("gh-btn"))).click();
+        Thread.sleep(3000);
+        //Keys.ENTER->clicks the enter button
+       driver.findElement(By.id("gh-ac")).sendKeys("shoes"+ Keys.ENTER);
+    //driver.findElement((By.id("gh-btn"))).click();
     String expectedTitle="search | eBay";
-    String actualtitle=driver.getTitle();
-    if(actualtitle.contains("search")){
+    String actualTitle=driver.getTitle();
+    if(actualTitle.contains("shoes")){
         System.out.println("Pass");
     }else {
         System.out.println("Fail");
         System.out.println("I expect "+expectedTitle);
-        System.out.println("Actual Title "+actualtitle);
+        System.out.println("Actual Title "+actualTitle);
     }
 driver.close();
 

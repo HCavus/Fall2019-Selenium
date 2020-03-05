@@ -33,9 +33,9 @@ public class SeleniumOH2 {
         //getText() -> return String (text) from the element
         System.out.println("Errror Message: "+errorText);
         //NoSuchElementException -it means we could not locate the element
-        driver.findElement(By.id("search_query_top"));
+        searchBox=driver.findElement(By.id("search_query_top"));
         searchBox.clear();
-        //
+        //clear()-(void) it will delete any values from input box
        searchBox.sendKeys("t-shirt "+Keys.ENTER);
        //StateElementReference-element is old/state- we want to find
         //this element again or refresh the page
@@ -45,9 +45,19 @@ public class SeleniumOH2 {
         driver.quit();
 
         /*
+         <a class="button ajax_add_to_cart_button btn btn-default"
+        href="http://automationpractice.com/index.php?controller=cart&amp;add=1&amp;id_product=1&amp;token=e817bb0705dd58da8db074c69f729fd8"
+        rel="nofollow" title="Add to cart" data-id-product="1">
+            <span>Add to cart</span>
+        </a>
+
         in html:
         a- link
         span-description
          */
+
+        WebElement addToCart = driver.findElement(By.className("button ajax_add_to_cart_button btn btn-default"));
+        addToCart.click();
+//        driver.quit();
     }
 }
