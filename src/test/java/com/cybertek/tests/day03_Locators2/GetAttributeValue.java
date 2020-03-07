@@ -31,6 +31,7 @@ public class GetAttributeValue {
         System.out.println(loginButton.getAttribute("class"));
 
         //getText() vs getAttribute()
+        driver.close();
 
     }
 }
