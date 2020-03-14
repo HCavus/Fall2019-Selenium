@@ -26,6 +26,6 @@ public class GetAttribute_2 {
         //TODO partialLinktext
         WebElement example2=driver.findElement(By.partialLinkText("Example 2:"));
         System.out.println(example2.getText());
-
+driver.close();
     }
 }
