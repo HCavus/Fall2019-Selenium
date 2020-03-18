@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day07_review/AmazonCssExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day07_review/AmazonTestWithText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day07_review/AmazonTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day08_review_2/GetAttributeExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day08_review_2/VytrackShortcut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_16_2020/GoogleResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day09_testNg_Intro/BeforeAndAfterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day09_testNg_Intro/FirstTestNgTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day09_testNg_Intro/TestNGAssertionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day04_xpath/GetAttribute_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day04_xpath/GetAttribute_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_17_2020/Vytrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_17_2020/Vytrack.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,45 +57,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Vytrack">
-    <configuration name="AmazonCssExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day07_review.AmazonCssExample" />
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day07_review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AmazonTestWithText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day07_review.AmazonTestWithText" />
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day07_review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoogleResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="officeHours.day_03_16_2020.GoogleResults" />
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="officeHours.day_03_16_2020.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Vytrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="officeHours.day_03_17_2020.Vytrack" />
       <module name="fall2019seleniumproject" />
@@ -110,15 +70,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VytrackShortcut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day08_review_2.VytrackShortcut" />
+    <configuration name="BeforeAndAfterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day08_review_2.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day09_testNg_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day09_testNg_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day09_testNg_Intro.BeforeAndAfterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeforeAndAfterTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day09_testNg_Intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day09_testNg_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day09_testNg_Intro.BeforeAndAfterTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGAssertionsTest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day09_testNg_Intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day09_testNg_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day09_testNg_Intro.TestNGAssertionsTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGAssertionsTest.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day09_testNg_Intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day09_testNg_Intro" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day09_testNg_Intro.TestNGAssertionsTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Vytrack" />
-        <item itemvalue="Application.GoogleResults" />
-        <item itemvalue="Application.VytrackShortcut" />
-        <item itemvalue="Application.AmazonCssExample" />
-        <item itemvalue="Application.AmazonTestWithText" />
+        <item itemvalue="TestNG.BeforeAndAfterTest" />
+        <item itemvalue="TestNG.BeforeAndAfterTest.test1" />
+        <item itemvalue="TestNG.TestNGAssertionsTest.test5" />
+        <item itemvalue="TestNG.TestNGAssertionsTest.test4" />
       </list>
     </recent_temporary>
   </component>
