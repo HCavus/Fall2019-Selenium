@@ -18,7 +18,7 @@ public class GoogleResults {
 for(String searchStr : searchStrs){
     WebElement searchInput=driver.findElement(By.name("q"));
 
-    //this is for settint up for second input
+    //this is for setting up for second input
     searchInput.clear();
     searchInput.sendKeys(searchStr+ Keys.ENTER);
     WebElement url=driver.findElement(By.cssSelector(".iUh30.tjvcx"));

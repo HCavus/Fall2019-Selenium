@@ -18,7 +18,7 @@ public class SeleniumOH2 {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
-        driver.get(" http://automationpractice.com");
+        driver.get("http://automationpractice.com");
         WebElement searchBox=driver.findElement(By.id("search_query_top"));
         //WebElement-class in selenium /java and it has many useful methods
         //sendKeys("value that we want to send- input")
@@ -42,7 +42,7 @@ public class SeleniumOH2 {
         Thread.sleep(3000);
         WebElement count=driver.findElement((By.className("product-count")));
         System.out.println("Item found: "+count.getText());
-        driver.quit();
+        //driver.quit();
 
         /*
          <a class="button ajax_add_to_cart_button btn btn-default"
@@ -56,8 +56,8 @@ public class SeleniumOH2 {
         span-description
          */
 
-        WebElement addToCart = driver.findElement(By.className("button ajax_add_to_cart_button btn btn-default"));
+        WebElement addToCart = driver.findElement(By.xpath("//a[@class='button ajax_add_to_cart_button btn btn-default']"));
         addToCart.click();
-//        driver.quit();
+        driver.quit();
     }
 }

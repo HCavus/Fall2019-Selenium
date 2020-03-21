@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day09_testNg_Intro/BeforeAndAfterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day09_testNg_Intro/FirstTestNgTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day09_testNg_Intro/TestNGAssertionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/CheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/DisabledAndDisplayed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/ListOfElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/OrderOftests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/RadioButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_19_2020/CollectionFramework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_03_2020/SeleniumOH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_03_2020/SeleniumOH1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_04_2020/SeleniumOH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_04_2020/SeleniumOH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_10_2020/OfficeHourB15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_10_2020/OfficeHourB15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_11_2020/JavaMapOH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_11_2020/JavaMapOH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_16_2020/GoogleResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_16_2020/GoogleResults.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_04_2020/SeleniumOH2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_04_2020/SeleniumOH2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_10_2020/OfficeHourB15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_10_2020/OfficeHourB15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_11_2020/JavaMapOH.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_11_2020/JavaMapOH.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_17_2020/Vytrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_17_2020/Vytrack.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,48 +66,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Vytrack">
-    <configuration name="Vytrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="officeHours.day_03_17_2020.Vytrack" />
+  <component name="RunManager" selected="TestNG.ListOfElements.sportsCheckedTest">
+    <configuration name="DisabledAndDisplayed.testElementVisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="officeHours.day_03_17_2020.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day10_webelements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeforeAndAfterTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day09_testNg_Intro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day09_testNg_Intro" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day09_testNg_Intro.BeforeAndAfterTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeforeAndAfterTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day09_testNg_Intro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day09_testNg_Intro" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day09_testNg_Intro.BeforeAndAfterTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_webelements" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_webelements.DisabledAndDisplayed" />
+      <option name="METHOD_NAME" value="testElementVisible" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,17 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGAssertionsTest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListOfElements.amazonSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day09_testNg_Intro.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day10_webelements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day09_testNg_Intro" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day09_testNg_Intro.TestNGAssertionsTest" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_webelements" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_webelements.ListOfElements" />
+      <option name="METHOD_NAME" value="amazonSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,17 +103,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGAssertionsTest.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListOfElements.getAllLinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day09_testNg_Intro.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day10_webelements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day09_testNg_Intro" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day09_testNg_Intro.TestNGAssertionsTest" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_webelements" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_webelements.ListOfElements" />
+      <option name="METHOD_NAME" value="getAllLinksTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListOfElements.listOfRadioButtons" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day10_webelements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_webelements" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_webelements.ListOfElements" />
+      <option name="METHOD_NAME" value="listOfRadioButtons" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListOfElements.sportsCheckedTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day10_webelements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day10_webelements" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day10_webelements.ListOfElements" />
+      <option name="METHOD_NAME" value="sportsCheckedTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Vytrack" />
-        <item itemvalue="TestNG.BeforeAndAfterTest" />
-        <item itemvalue="TestNG.BeforeAndAfterTest.test1" />
-        <item itemvalue="TestNG.TestNGAssertionsTest.test5" />
-        <item itemvalue="TestNG.TestNGAssertionsTest.test4" />
+        <item itemvalue="TestNG.ListOfElements.sportsCheckedTest" />
+        <item itemvalue="TestNG.ListOfElements.amazonSearch" />
+        <item itemvalue="TestNG.ListOfElements.getAllLinksTest" />
+        <item itemvalue="TestNG.ListOfElements.listOfRadioButtons" />
+        <item itemvalue="TestNG.DisabledAndDisplayed.testElementVisible" />
       </list>
     </recent_temporary>
   </component>
@@ -176,5 +192,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/DisabledAndDisplayed.java</url>
+          <line>31</line>
+          <properties class="com.cybertek.tests.day10_webelements.DisabledAndDisplayed" method="disabledTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

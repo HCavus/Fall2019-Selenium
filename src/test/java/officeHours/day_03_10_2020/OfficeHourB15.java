@@ -8,9 +8,9 @@ public class OfficeHourB15 {
         Under list Interface:
         -ArrayList(indexes,faster to read, slower when we do manipulations(remove or add elements)
         -Vector (same as ArrayList, but Thread safe)
-            -stack (Last in First out9like a stack of paper))
+            -stack (Last in First out(like a stack of paper))
            -LinkedList(node(each element reference to previous and next element in the list
-           (performance-sensitive,memory allocation
+           (performance-sensitive,memory allocation)
            [2,5,3] -> [2,3]
            [2],[5],[3]
          */
@@ -21,9 +21,9 @@ public class OfficeHourB15 {
         TreeSet: sorted set-no nulls
         LinkedHashSet:keeps the order
          */
-        HashSet<String> hashSet=new HashSet<>();
-        TreeSet<String> treeSet=new TreeSet<>();
-        LinkedHashSet<String> linkedHashSet=new LinkedHashSet<>();
+        HashSet<String> hashSet=new HashSet<>(); //no insertion order
+        TreeSet<String> treeSet=new TreeSet<>();  //sorted set
+        LinkedHashSet<String> linkedHashSet=new LinkedHashSet<>(); //keeps the order
 
         for(String each: Arrays.asList("Value5","Value1","Value3")){
             hashSet.add(each);
@@ -49,7 +49,8 @@ public class OfficeHourB15 {
        dropdown.add(1);
        //[1,2,3,4,5,1]
         System.out.println("list: "+dropdown);
-        HashSet<Integer>optionSet=new HashSet<>();
+        HashSet<Integer>optionSet=new HashSet<>(dropdown);
+        System.out.println(optionSet.size());  //5
 
         if(optionSet.size()==dropdown.size()){
             System.out.println("expected is the same as actual");

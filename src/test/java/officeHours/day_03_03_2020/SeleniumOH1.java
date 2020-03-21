@@ -71,7 +71,7 @@ public class SeleniumOH1 {
         id="global-enhancements-search-query" -one of the attributes
         we can use id to locate the element
 
-        name="search-query" -attriute -we can use name to locate the element
+        name="search-query" -attribute -we can use name to locate the element
         class="wt-input wt-input btn-group_input
         global enhancements-search-input-btn-group_input wt-pr-xs-7
         -we can use class to locate element

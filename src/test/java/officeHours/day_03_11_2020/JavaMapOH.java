@@ -13,15 +13,15 @@ public class JavaMapOH {
         numbers.addFirst(20);
         numbers.addFirst(30);
         numbers.addFirst(50);
-        System.out.println(numbers);
+        System.out.println(numbers); //50,30,20
         numbers.addLast(90);
-        System.out.println(numbers);
+        System.out.println(numbers); //50,30,20,90
         numbers.add(33);
-        System.out.println(numbers);
+        System.out.println(numbers); //50,30,20,90,33
         Integer num=numbers.pollFirst();//return and delete first element
-        System.out.println(num);
-        System.out.println(numbers);
-        System.out.println(numbers.getLast()+" peek: "+numbers.peekLast());
+        System.out.println(num);  //50
+        System.out.println(numbers);  //30,20,90,33
+        System.out.println(numbers.getLast()+" peek: "+numbers.peekLast());  //33 peek: 33
 
         /*
         What collections you are using in your project?
@@ -30,7 +30,7 @@ public class JavaMapOH {
 
         List -> Arraylist most of the time , because I would usually just need
         to store some values
-        I would use LikedList if I know I will need to manipulate my date
+        I would use LinkedList if I know I will need to manipulate my data
         (consistently add, remove,etc.)
 
         Set ->
@@ -48,12 +48,18 @@ public class JavaMapOH {
         user2.put("First Name","John");
         user2.put("LastName",null);
         user2.put("Last Name","White");//will be overriden
-        user2.put("account Number","A7532984");
+        user2.put("Account Number","A7532984");
         user2.put("DOB","12.02.1964");
+
         System.out.println(user2);
+
         HashMap<String,String> user3=new HashMap<>(user1);
+        System.out.println(user3);
+
         user2.put("Account Number", "A12337897");
         user2.put("DOB","12.08.1990");
+
+        System.out.println(user2);
 
         List<HashMap<String, String>> users=new ArrayList<>();
         //LinkedHasMap extends HashMap
