@@ -14,6 +14,8 @@ public class TestNGAssertionsTest {
         System.out.println("test 1 Complete");
     }
     @Test
+    //positive test case
+    //fails
     public void test2(){
         String expected="one";
         String actual="two";
@@ -22,6 +24,8 @@ public class TestNGAssertionsTest {
         System.out.println("test 2 Complete");
     }
     @Test
+    //negative test case
+    //passes
     public void test3(){
         String expected="one";
         String actual="two";
@@ -30,6 +34,8 @@ public class TestNGAssertionsTest {
 
     }
     @Test
+    //positive test case
+    //passes
     public void test4(){
         String expected="one";
         String actual="one";
@@ -39,6 +45,8 @@ public class TestNGAssertionsTest {
         Assert.assertTrue(a>e);
     }
     @Test
+    //positive test case
+    //passes
     public void test5(){
         //verify that url is equal to https://www.google.com/
         String expected="https://www.google.com/";

@@ -5,13 +5,15 @@ import org.testng.annotations.Test;
 
 public class OrderOftests {
     String title;
-    @Test(priority=0)
+    @Test(priority=0,description="test login functionality")
     public void login(){
         System.out.println("Opening the browser");
-        System.out.println("capturig title");
+        System.out.println("capturing title");
         title="cbt";
+        //I will make this test fail.
+        Assert.fail();
     }
-    @Test(priority=1)
+    @Test(priority=1,dependsOnMethods="login")
     public void assertTitle(){
         System.out.println("Verifying the title");
         Assert.assertEquals(title,"cbt");

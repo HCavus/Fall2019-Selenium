@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/CheckBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/DisabledAndDisplayed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/ListOfElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/OrderOftests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/RadioButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_19_2020/CollectionFramework.java" afterDir="false" />
+    <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="OrderOftests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_03_2020/SeleniumOH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_03_2020/SeleniumOH1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_04_2020/SeleniumOH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_04_2020/SeleniumOH2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_10_2020/OfficeHourB15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_10_2020/OfficeHourB15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_11_2020/JavaMapOH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_11_2020/JavaMapOH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_16_2020/GoogleResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_16_2020/GoogleResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day09_testNg_Intro/TestNGAssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day09_testNg_Intro/TestNGAssertionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/DisabledAndDisplayed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/DisabledAndDisplayed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/ListOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/ListOfElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/OrderOftests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/OrderOftests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/RadioButtons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_04_2020/SeleniumOH2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_04_2020/SeleniumOH2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_10_2020/OfficeHourB15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_10_2020/OfficeHourB15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_11_2020/JavaMapOH.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_11_2020/JavaMapOH.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_17_2020/Vytrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_17_2020/Vytrack.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,18 +182,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/DisabledAndDisplayed.java</url>
-          <line>31</line>
-          <properties class="com.cybertek.tests.day10_webelements.DisabledAndDisplayed" method="disabledTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OrderOftests" />
+    <option name="LAST_COMMIT_MESSAGE" value="OrderOftests" />
   </component>
 </project>

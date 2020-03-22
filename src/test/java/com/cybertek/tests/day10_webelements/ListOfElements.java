@@ -56,8 +56,8 @@ public class ListOfElements {
     public void getAllLinksTest() {
         driver.get("http://practice.cybertekschool.com/");
         //get all the links in a page
-        List<WebElement> links = driver.findElements(By.tagName("a"));
-        System.out.println(links.size());
+        List<WebElement> links = driver.findElements(By.tagName("a")); //tag name is common
+        System.out.println(links.size()); //50
 
         for (WebElement link : links) {
             System.out.println(link.getText());
@@ -66,7 +66,7 @@ public class ListOfElements {
 
     /*
     go to amazon.com
-    search for lysol disinfecting wipes
+    search for paper towels
     print he number of results
     print the first result
     print the second result
@@ -79,7 +79,7 @@ public class ListOfElements {
         searchBox.sendKeys("paper towels" + Keys.ENTER);
         List<WebElement> list = driver.findElements(By.cssSelector("span.a-size-base-plus"));
         Thread.sleep(2000);
-        System.out.println("Number of results: " + list.size());
+        System.out.println("Number of results: " + list.size()); //60
         System.out.println("First result: " + list.get(0).getText());
         System.out.println("Second result: " + list.get(1).getText());
         System.out.println("Last result: " + list.get(list.size() - 1).getText());
@@ -97,11 +97,11 @@ public class ListOfElements {
     @Test
     public void sportsCheckedTest() throws InterruptedException {
         driver.get("http://practice.cybertekschool.com/radio_buttons");
-        List<WebElement> sports = driver.findElements(By.name("sport"));
+        List<WebElement> list= driver.findElements(By.name("sport"));
         System.out.println("verifying none of them selected by default");
 
         //checking all the sport checkboxes are not checked
-        for (WebElement sport : sports) {
+        for (WebElement sport : list) {
             Assert.assertFalse(sport.isSelected());
 
         }
@@ -111,13 +111,14 @@ public class ListOfElements {
         for (int i = 0; i < 5; i++) {
             Thread.sleep(2000);
             int num = item.nextInt(4);
-            sports.get(num).click();
+            list.get(num).click();
+            Thread.sleep(3000);
             System.out.println("Selecting button number:" + (num + 1));
-            for (int j = 0; j < sports.size(); j++) {
+            for (int j = 0; j < list.size(); j++) {
                 if (j == num) {
-                    Assert.assertTrue(sports.get(num).isSelected());
+                    Assert.assertTrue(list.get(num).isSelected());
                 } else {
-                    Assert.assertTrue(sports.get(num).isSelected());
+                    Assert.assertTrue(list.get(num).isSelected());
                 }
             }
 

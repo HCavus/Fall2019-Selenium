@@ -73,8 +73,8 @@ public class Vytrack {
         to create select class we are using webElement of <select></select> element from html
         (we need to locate our dropdown which should have select tag)
          */
-
-        WebElement country=driver.findElement(By.name("oro_contact_form[addresses][0][country]"));
+        WebElement country=driver.findElement(By.className("select2-chosen"));
+        // WebElement country=driver.findElement(By.name("oro_contact_form[addresses][0][country]"));
         Select country_dropdown=new Select(country); //this is special class in selenium to handle dropdowns
         /*
         it has different methods that helps us interact with dropdown

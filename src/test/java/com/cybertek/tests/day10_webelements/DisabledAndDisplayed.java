@@ -45,17 +45,17 @@ public class DisabledAndDisplayed {
         WebElement green = driver.findElement(By.id("green"));
         WebElement black = driver.findElement(By.id("black"));
 
-        System.out.println("Black : " + black.getAttribute("disabled"));
-        System.out.println("Green : " + green.getAttribute("disabled"));
+        System.out.println("Black : " + black.getAttribute("disabled")); //null
+        System.out.println("Green : " + green.getAttribute("disabled"));  //true
 
         //verify that certain value is equal to null.verify element is enabled
-        Assert.assertEquals(black.getAttribute("disabled"), null);
+        Assert.assertEquals(black.getAttribute("disabled"), null); //true
         //verify that value of black.getAttribute("disabled") is NULL
-        Assert.assertNull(black.getAttribute("disabled"));
+        Assert.assertNull(black.getAttribute("disabled")); //true
 
         //verify that certain value is equal to TRUE.verify element is DISABLED.
-        Assert.assertEquals(green.getAttribute("disabled"), "true");
-        Assert.assertTrue(Boolean.parseBoolean(green.getAttribute("disabled")));
+        Assert.assertEquals(green.getAttribute("disabled"), "true"); //true
+        Assert.assertTrue(Boolean.parseBoolean(green.getAttribute("disabled"))); //true
     }
         @Test
         public void testElementVisible() throws InterruptedException {
@@ -64,13 +64,13 @@ public class DisabledAndDisplayed {
             WebElement start=driver.findElement(By.tagName("button"));
             //verify that username is not visible
             //isDisplayed -->returns true if element we found in HTML is visible on page.
-            System.out.println("username is visible: "+username.isDisplayed());
+            System.out.println("username is visible: "+username.isDisplayed()); //false
             Assert.assertFalse(username.isDisplayed());
 
             System.out.println("click on start");
             start.click();
             Thread.sleep(7000);
-            System.out.println("username is visible: "+username.isDisplayed());
+            System.out.println("username is visible: "+username.isDisplayed()); //true
             Assert.assertTrue(username.isDisplayed());
 
 
