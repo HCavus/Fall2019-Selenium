@@ -12,15 +12,13 @@ import org.testng.annotations.Test;
 public class RadioButtons {
     WebDriver driver;
     @BeforeMethod
-    public void beforeMethod() throws InterruptedException {
+    public void beforeMethod() {
          driver= WebDriverFactory.getDriver("chrome");
         driver.get("http://practice.cybertekschool.com/radio_buttons");
-        Thread.sleep(3000);
     }
     @AfterMethod
-    public void afterMethod() throws InterruptedException {
-        Thread.sleep(3000);
-       driver.quit();
+    public void afterMethod()  {
+        driver.quit();
     }
     /*
     go to http://practice.cybertekschool.com/radio_buttons
