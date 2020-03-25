@@ -5,12 +5,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import java.util.HashMap;
 
 public class Vytrack {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver= WebDriverFactory.getDriver("chrome");
+        driver.manage().window().maximize();
         driver.get("https://qa3.vytrack.com");
         Thread.sleep(2000);
         WebElement usernameBox=driver.findElement(By.id("prependedInput"));
@@ -56,7 +58,6 @@ public class Vytrack {
         WebElement phone=driver.findElement(By.name("oro_contact_form[phones][0][phone]"));
         WebElement street=driver.findElement(By.name("oro_contact_form[addresses][0][street]"));
         WebElement city=driver.findElement(By.name("oro_contact_form[addresses][0][city]"));
-        WebElement state=driver.findElement(By.xpath("//input[@data-name='field__region-text']"));
         WebElement zipCode=driver.findElement(By.name("oro_contact_form[addresses][0][postalCode]"));
         WebElement salesGroup=driver.findElement(By.xpath("(//input[@data-name = 'field__1'])[2]"));
         first_name.sendKeys(contact1.get("First Name"));
@@ -64,7 +65,6 @@ public class Vytrack {
         phone.sendKeys(contact1.get("Phone"));
        street.sendKeys(contact1.get("Street"));
        city.sendKeys(contact1.get("City"));
-       state.sendKeys(contact1.get("State"));
        zipCode.sendKeys(contact1.get("Zip Code"));
 
         /*
@@ -73,15 +73,37 @@ public class Vytrack {
         to create select class we are using webElement of <select></select> element from html
         (we need to locate our dropdown which should have select tag)
          */
-        WebElement country=driver.findElement(By.className("select2-chosen"));
-        // WebElement country=driver.findElement(By.name("oro_contact_form[addresses][0][country]"));
+
+        WebElement country=driver.findElement(By.name("oro_contact_form[addresses][0][country]"));
         Select country_dropdown=new Select(country); //this is special class in selenium to handle dropdowns
         /*
         it has different methods that helps us interact with dropdown
          */
         country_dropdown.selectByVisibleText(contact1.get("Country"));
+
+        WebElement state = driver.findElement(By.xpath("//select[@data-name = 'field__region']"));
+        Select state_list = new Select(state);
+        state_list.selectByVisibleText(contact1.get("State"));
+
+
         if(contact1.get("Sales Group").equalsIgnoreCase("true")){
            salesGroup.click();
         }
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("(//button[contains(text(),'Save and Close')])[1]")).click();
+        String fullName=contact1.get("First Name")+" "+contact1.get("Last Name");
+        String uiFullname=driver.findElement(By.xpath("//h1[@class='user-name']")).getText();
+        Assert.assertEquals(uiFullname,fullName);
+        System.out.println("Actual: "+uiFullname+" | Expected: "+fullName);
+
+        String uiPhone=driver.findElement(By.className("phone")).getText();
+        Assert.assertEquals(uiPhone,contact1.get("Phone"));
+        System.out.println("Actual: "+uiPhone+" | Expected: "+contact1.get("Phone"));
+
+        String uiCompleteAddress=driver.findElement(By.xpath("//address")).getText();
+        String cityWithState=(contact1.get("City")+" "+contact1.get("State")+
+                " "+contact1.get("Country")+" "+contact1.get("Zip Code")).toUpperCase();
+        String completeAddress=contact1.get("Street")+"\n"+cityWithState;
+        Assert.assertEquals(uiCompleteAddress,completeAddress);
     }
 }
