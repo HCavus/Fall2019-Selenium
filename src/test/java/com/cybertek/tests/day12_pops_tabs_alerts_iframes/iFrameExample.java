@@ -33,7 +33,7 @@ public class iFrameExample {
         Thread.sleep(3000);
         //get out to the frame
         driver.switchTo().defaultContent();
-        System.out.println(driver.findElement(By.tagName("h3")));
+        System.out.println(driver.findElement(By.tagName("h3")).getText());
 
         //TODO switch by web element
         WebElement frame=driver.findElement(By.tagName("iframe"));

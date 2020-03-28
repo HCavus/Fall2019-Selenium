@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="OrderOftests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/ActionsClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/JavaScriptExecutorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/SelectClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/TabsAndWindowsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/iFrameExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_23_2020/GoogleSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_23_2020/SelectClassPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ImplicitwaitExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ThreadSleepExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_25_2020/IframePractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_17_2020/Vytrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_17_2020/Vytrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/officeHours/day_03_17_2020/Vytrack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/ListOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/ListOfElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/OrderOftests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/OrderOftests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/ActionsClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/ActionsClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/JavaScriptExecutorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/JavaScriptExecutorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/TabsAndWindowsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/TabsAndWindowsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/iFrameExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/iFrameExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/fall2019seleniumproject.kotlin_module" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,44 +40,20 @@
   </component>
   <component name="ProjectId" id="1YUywAohikHmpvSnhGkK75jBoc1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.TabsAndWindowsExample.test">
-    <configuration name="PopupAndAlertsExamples.jsAlerts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.PopupAndAlertsExamples" />
-      <option name="METHOD_NAME" value="jsAlerts" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ThreadSleepExample.test1">
     <configuration name="PopupAndAlertsExamples.jsAlertsCancel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
@@ -134,7 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iFrameExample.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadSleepExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ThreadSleepExample" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iFrameExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +136,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.iFrameExample" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ThreadSleepExample.test1" />
         <item itemvalue="TestNG.TabsAndWindowsExample.test" />
-        <item itemvalue="TestNG.iFrameExample.test" />
+        <item itemvalue="TestNG.iFrameExample" />
         <item itemvalue="TestNG.PopupAndAlertsExamples.jssendKeys" />
         <item itemvalue="TestNG.PopupAndAlertsExamples.jsAlertsCancel" />
-        <item itemvalue="TestNG.PopupAndAlertsExamples.jsAlerts" />
       </list>
     </recent_temporary>
   </component>
@@ -192,18 +183,30 @@
     <MESSAGE value="OrderOftests" />
     <option name="LAST_COMMIT_MESSAGE" value="OrderOftests" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/iFrameExample.java</url>
-          <line>22</line>
-          <properties class="com.cybertek.tests.day12_pops_tabs_alerts_iframes.iFrameExample" method="test">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state width="1235" height="122" key="GridCell.Tab.0.bottom" timestamp="1585405590211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1235" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585405590211" />
+    <state width="641" height="91" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585351838552" />
+    <state width="1235" height="122" key="GridCell.Tab.0.center" timestamp="1585405590210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1235" height="122" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585405590210" />
+    <state width="641" height="91" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585351838551" />
+    <state width="1235" height="122" key="GridCell.Tab.0.left" timestamp="1585405590210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1235" height="122" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585405590210" />
+    <state width="641" height="91" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585351838551" />
+    <state width="1235" height="122" key="GridCell.Tab.0.right" timestamp="1585405590210">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1235" height="122" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585405590210" />
+    <state width="641" height="91" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585351838551" />
+    <state x="335" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585404965361">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="335" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585404965361" />
   </component>
 </project>

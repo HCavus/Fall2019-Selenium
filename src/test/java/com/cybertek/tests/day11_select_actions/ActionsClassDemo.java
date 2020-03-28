@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 public class ActionsClassDemo {
     WebDriver driver;
-    Actions actions;
+  Actions actions;
 
     @BeforeMethod
     public void beforeMethod(){
@@ -52,10 +52,11 @@ public class ActionsClassDemo {
           WebElement money=driver.findElement(By.id("draggable"));
         WebElement bank=driver.findElement(By.id("droptarget"));
         Thread.sleep(3000);
-        //scroll
 
+        //scroll down
         actions.sendKeys(Keys.PAGE_DOWN).perform();
-       // actions.sendKays(Keys.ARROW_DOWN).perform();
+        // actions.sendKeys(Keys.ARROW_DOWN).perform();
+
         actions.dragAndDrop(money,bank).perform();
         Thread.sleep(3000);
     }

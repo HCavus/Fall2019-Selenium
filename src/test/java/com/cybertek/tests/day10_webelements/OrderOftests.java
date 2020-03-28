@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class OrderOftests {
     String title;
-    @Test(priority=0,description="test login functionality")
+    @Test(priority=0 ,description="test login functionality")
     public void login(){
         System.out.println("Opening the browser");
         System.out.println("capturing title");

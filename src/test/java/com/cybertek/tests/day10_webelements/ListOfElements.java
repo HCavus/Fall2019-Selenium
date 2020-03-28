@@ -70,7 +70,7 @@ public class ListOfElements {
     print he number of results
     print the first result
     print the second result
-    print he last result
+    print the last result
      */
     @Test
     public void amazonSearch() throws InterruptedException {

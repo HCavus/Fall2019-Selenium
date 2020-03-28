@@ -36,6 +36,7 @@ public class PopupAndAlertsExamples {
 
         Alert alert=driver.switchTo().alert();
         alert.accept();
+        Thread.sleep(3000);
     }
     @Test
     public void jsAlertsCancel() throws InterruptedException {
@@ -46,14 +47,13 @@ public class PopupAndAlertsExamples {
 
         Alert alert=driver.switchTo().alert();
         alert.dismiss();
+        Thread.sleep(3000);
     }
     @Test
     public void jssendKeys() throws InterruptedException {
         driver.get("http://practice.cybertekschool.com/javascript_alerts");
         WebElement button3=driver.findElement(By.xpath("//button[3]"));
        // button3.click();
-
-
         Alert alert=null;
         try{
             alert=driver.switchTo().alert();
