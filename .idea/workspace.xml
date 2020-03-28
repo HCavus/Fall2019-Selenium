@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="OrderOftests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ImplicitwaitExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ThreadSleepExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_03_25_2020/IframePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ExplicitWaitExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/RandomStuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/VytrackLoginTestWithWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/ListOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/ListOfElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/OrderOftests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10_webelements/OrderOftests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/ActionsClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/ActionsClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/JavaScriptExecutorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/JavaScriptExecutorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/TabsAndWindowsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/TabsAndWindowsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/iFrameExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/iFrameExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/fall2019seleniumproject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ImplicitwaitExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ImplicitwaitExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,62 +46,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.ThreadSleepExample.test1">
-    <configuration name="PopupAndAlertsExamples.jsAlertsCancel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.PopupAndAlertsExamples" />
-      <option name="METHOD_NAME" value="jsAlertsCancel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PopupAndAlertsExamples.jssendKeys" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.PopupAndAlertsExamples" />
-      <option name="METHOD_NAME" value="jssendKeys" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TabsAndWindowsExample.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.TabsAndWindowsExample" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadSleepExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.VytrackLoginTestWithWait.test1">
+    <configuration name="ExplicitWaitExamples.test2WaitForVisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +56,79 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ThreadSleepExample" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test2WaitForVisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExplicitWaitExamples.test3WaitForVisibleFail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test3WaitForVisibleFail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExplicitWaitExamples.test4WaitForClickable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test4WaitForClickable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExplicitWaitExamples.test5WaitForInvisible" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
+      <option name="METHOD_NAME" value="test5WaitForInvisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VytrackLoginTestWithWait.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.VytrackLoginTestWithWait" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -126,30 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iFrameExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day12_pops_tabs_alerts_iframes.iFrameExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ThreadSleepExample.test1" />
-        <item itemvalue="TestNG.TabsAndWindowsExample.test" />
-        <item itemvalue="TestNG.iFrameExample" />
-        <item itemvalue="TestNG.PopupAndAlertsExamples.jssendKeys" />
-        <item itemvalue="TestNG.PopupAndAlertsExamples.jsAlertsCancel" />
+        <item itemvalue="TestNG.VytrackLoginTestWithWait.test1" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test5WaitForInvisible" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test4WaitForClickable" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test3WaitForVisibleFail" />
+        <item itemvalue="TestNG.ExplicitWaitExamples.test2WaitForVisible" />
       </list>
     </recent_temporary>
   </component>
@@ -184,25 +178,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="OrderOftests" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1235" height="122" key="GridCell.Tab.0.bottom" timestamp="1585405590211">
+    <state width="1235" height="122" key="GridCell.Tab.0.bottom" timestamp="1585428058255">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1235" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585405590211" />
+    <state width="1235" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585428058255" />
     <state width="641" height="91" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585351838552" />
-    <state width="1235" height="122" key="GridCell.Tab.0.center" timestamp="1585405590210">
+    <state width="1235" height="122" key="GridCell.Tab.0.center" timestamp="1585428058255">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1235" height="122" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585405590210" />
+    <state width="1235" height="122" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585428058255" />
     <state width="641" height="91" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585351838551" />
-    <state width="1235" height="122" key="GridCell.Tab.0.left" timestamp="1585405590210">
+    <state width="1235" height="122" key="GridCell.Tab.0.left" timestamp="1585428058255">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1235" height="122" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585405590210" />
+    <state width="1235" height="122" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585428058255" />
     <state width="641" height="91" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585351838551" />
-    <state width="1235" height="122" key="GridCell.Tab.0.right" timestamp="1585405590210">
+    <state width="1235" height="122" key="GridCell.Tab.0.right" timestamp="1585428058255">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1235" height="122" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585405590210" />
+    <state width="1235" height="122" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585428058255" />
     <state width="641" height="91" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585351838551" />
     <state x="335" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585404965361">
       <screen x="0" y="0" width="1280" height="680" />

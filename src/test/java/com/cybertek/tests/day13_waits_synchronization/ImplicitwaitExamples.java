@@ -16,7 +16,7 @@ public class ImplicitwaitExamples {
     @BeforeMethod
     public void setUp(){
         driver= WebDriverFactory.getDriver("chrome");
-
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);// will run whenever you need in the code
     }
     @AfterMethod
     public void tearDown() {
@@ -25,9 +25,16 @@ public class ImplicitwaitExamples {
     @Test
     public void test1() {
         driver.get("http://practice.cybertekschool.com/dynamic_loading/4");
-        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
-        WebElement message=driver.findElement(By.cssSelector("#finish>h4"));
 
+        WebElement message=driver.findElement(By.cssSelector("#finish>h4"));
+       // driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS); will throw exception, only works with findelement
+        Assert.assertTrue(message.isDisplayed());
+        System.out.println(message.getText());
+
+        driver.get("http://practice.cybertekschool.com/dynamic_loading/2");
+        WebElement button=driver.findElement(By.tagName("button"));
+        button.click();
+        message=driver.findElement(By.cssSelector("#finish>h4"));
 
         Assert.assertTrue(message.isDisplayed());
         System.out.println(message.getText());
