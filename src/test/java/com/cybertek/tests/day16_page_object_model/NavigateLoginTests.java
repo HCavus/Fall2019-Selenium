@@ -3,12 +3,14 @@ package com.cybertek.tests.day16_page_object_model;
 import com.cybertek.base.TestBase;
 import com.cybertek.pages.LoginPage;
 import com.cybertek.utilities.ConfigurationReader;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class NavigateLoginTests extends TestBase {
-     public LoginPage loginPage;
+    LoginPage loginPage;
+
     @BeforeMethod
     public void setUp(){
         driver.get(ConfigurationReader.getProperty("vytrack_url"));
