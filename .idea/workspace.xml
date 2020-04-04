@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/PositiveLoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytrackTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/VehiclesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/PageHeadersTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficeHours-Fall_2019-B15" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeHours-Fall_2019-B15" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/NavigateLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/NavigateLoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +49,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.PositiveLoginTests.loginAsSalesManager">
-    <configuration name="ActionsClassDemo.hoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day11_select_actions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day11_select_actions" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day11_select_actions.ActionsClassDemo" />
-      <option name="METHOD_NAME" value="hoverTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavigateLoginTests.wrongUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PageHeadersTests.fleetVehiclesTest">
+    <configuration name="PageHeadersTests.dashboardPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +59,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_page_object_model" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_page_object_model.NavigateLoginTests" />
-      <option name="METHOD_NAME" value="wrongUsernameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_page_object_model.PageHeadersTests" />
+      <option name="METHOD_NAME" value="dashboardPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageHeadersTests.fleetVehiclesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day16_page_object_model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_page_object_model" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_page_object_model.PageHeadersTests" />
+      <option name="METHOD_NAME" value="fleetVehiclesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PageHeadersTests.fleetVehiclesTest" />
+        <item itemvalue="TestNG.PageHeadersTests.dashboardPageTest" />
         <item itemvalue="TestNG.PositiveLoginTests.loginAsSalesManager" />
         <item itemvalue="TestNG.PositiveLoginTests.loginAsStoreManager" />
         <item itemvalue="TestNG.PositiveLoginTests.loginAsDrivers" />
-        <item itemvalue="TestNG.NavigateLoginTests.wrongUsernameTest" />
-        <item itemvalue="TestNG.ActionsClassDemo.hoverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,39 +200,43 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="251" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585704658059" />
+    <state x="98" y="132" width="1067" height="440" key="DiffContextDialog" timestamp="1586024089506">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="98" y="132" width="1067" height="440" key="DiffContextDialog/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586024089506" />
     <state x="420" y="81" key="FileChooserDialogImpl" timestamp="1585776671540">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="420" y="81" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585776671540" />
-    <state width="1207" height="158" key="GridCell.Tab.0.bottom" timestamp="1586018223173">
+    <state width="1207" height="158" key="GridCell.Tab.0.bottom" timestamp="1586031938467">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1207" height="158" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586018223173" />
+    <state width="1207" height="158" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586031938467" />
     <state width="1200" height="237" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585967568175" />
-    <state width="1207" height="158" key="GridCell.Tab.0.center" timestamp="1586018223173">
+    <state width="1207" height="158" key="GridCell.Tab.0.center" timestamp="1586031938467">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1207" height="158" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586018223173" />
+    <state width="1207" height="158" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586031938467" />
     <state width="1200" height="237" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585967568174" />
-    <state width="1207" height="158" key="GridCell.Tab.0.left" timestamp="1586018223173">
+    <state width="1207" height="158" key="GridCell.Tab.0.left" timestamp="1586031938466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1207" height="158" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586018223173" />
+    <state width="1207" height="158" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586031938466" />
     <state width="1200" height="237" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585967568174" />
-    <state width="1207" height="158" key="GridCell.Tab.0.right" timestamp="1586018223173">
+    <state width="1207" height="158" key="GridCell.Tab.0.right" timestamp="1586031938467">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1207" height="158" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586018223173" />
+    <state width="1207" height="158" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586031938467" />
     <state width="1200" height="237" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585967568174" />
     <state x="335" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585954515322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="335" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585404965361" />
     <state x="335" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585954515322" />
-    <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585696956059">
+    <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586023563366">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585696956059" />
+    <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586023563366" />
     <state x="86" y="0" key="new project wizard" timestamp="1586016155655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
