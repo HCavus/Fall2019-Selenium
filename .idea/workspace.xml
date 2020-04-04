@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OfficeHours-Fall_2019-B15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/NavigateLoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_04_02_2020/WebTablesPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_04_03_2020/IFrameExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHours/day_04_03_2020/JavaScriptExecuterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/ActionsClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_select_actions/ActionsClassDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_webtables/WebtablesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_webtables/WebtablesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,35 +53,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.WebtablesTests.iterateTheTableUsingLoops">
-    <configuration name="WebtablesTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.NavigateLoginTests.wrongUsernameTest">
+    <configuration name="ActionsClassDemo.hoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day11_select_actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebtablesTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebtablesTests.getHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="fall2019seleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebtablesTests" />
-      <option name="METHOD_NAME" value="getHeaders" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day11_select_actions" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day11_select_actions.ActionsClassDemo" />
+      <option name="METHOD_NAME" value="hoverTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,17 +72,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebtablesTests.getSingleBasedByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IFrameExamples.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
+          <option name="PATTERN" value="officeHours.day_04_03_2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebtablesTests" />
-      <option name="METHOD_NAME" value="getSingleBasedByIndex" />
+      <option name="PACKAGE_NAME" value="officeHours.day_04_03_2020" />
+      <option name="MAIN_CLASS_NAME" value="officeHours.day_04_03_2020.IFrameExamples" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,17 +90,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebtablesTests.getSingleRowByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptExecuterExample.highlight" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
+          <option name="PATTERN" value="officeHours.day_04_03_2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebtablesTests" />
-      <option name="METHOD_NAME" value="getSingleRowByIndex" />
+      <option name="PACKAGE_NAME" value="officeHours.day_04_03_2020" />
+      <option name="MAIN_CLASS_NAME" value="officeHours.day_04_03_2020.JavaScriptExecuterExample" />
+      <option name="METHOD_NAME" value="highlight" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,17 +108,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebtablesTests.iterateTheTableUsingLoops" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptExecuterExample.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_webtables.*" />
+          <option name="PATTERN" value="officeHours.day_04_03_2020.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_webtables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_webtables.WebtablesTests" />
-      <option name="METHOD_NAME" value="iterateTheTableUsingLoops" />
+      <option name="PACKAGE_NAME" value="officeHours.day_04_03_2020" />
+      <option name="MAIN_CLASS_NAME" value="officeHours.day_04_03_2020.JavaScriptExecuterExample" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigateLoginTests.wrongUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fall2019seleniumproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day16_page_object_model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_page_object_model" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_page_object_model.NavigateLoginTests" />
+      <option name="METHOD_NAME" value="wrongUsernameTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WebtablesTests.iterateTheTableUsingLoops" />
-        <item itemvalue="TestNG.WebtablesTests.getSingleBasedByIndex" />
-        <item itemvalue="TestNG.WebtablesTests.getSingleRowByIndex" />
-        <item itemvalue="TestNG.WebtablesTests" />
-        <item itemvalue="TestNG.WebtablesTests.getHeaders" />
+        <item itemvalue="TestNG.NavigateLoginTests.wrongUsernameTest" />
+        <item itemvalue="TestNG.ActionsClassDemo.hoverTest" />
+        <item itemvalue="TestNG.JavaScriptExecuterExample.highlight" />
+        <item itemvalue="TestNG.JavaScriptExecuterExample.test" />
+        <item itemvalue="TestNG.IFrameExamples.test" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585695930074</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OrderOftests">
+      <created>1585704659175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585704659175</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,37 +200,61 @@
     <option name="LAST_COMMIT_MESSAGE" value="OrderOftests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1585695928661">
+    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1585704658059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585695928661" />
-    <state width="1235" height="120" key="GridCell.Tab.0.bottom" timestamp="1585704594287">
+    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585704658059" />
+    <state x="420" y="81" key="FileChooserDialogImpl" timestamp="1585776671540">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1235" height="120" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585704594287" />
-    <state width="1235" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585623794491" />
-    <state width="1235" height="120" key="GridCell.Tab.0.center" timestamp="1585704594287">
+    <state x="420" y="81" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585776671540" />
+    <state width="1207" height="51" key="GridCell.Tab.0.bottom" timestamp="1586012924936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1235" height="120" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585704594287" />
-    <state width="1235" height="122" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585623794491" />
-    <state width="1235" height="120" key="GridCell.Tab.0.left" timestamp="1585704594287">
+    <state width="1207" height="51" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586012924936" />
+    <state width="1200" height="237" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585967568175" />
+    <state width="1207" height="51" key="GridCell.Tab.0.center" timestamp="1586012924935">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1235" height="120" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585704594287" />
-    <state width="1235" height="122" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585623794490" />
-    <state width="1235" height="120" key="GridCell.Tab.0.right" timestamp="1585704594287">
+    <state width="1207" height="51" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586012924935" />
+    <state width="1200" height="237" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585967568174" />
+    <state width="1207" height="51" key="GridCell.Tab.0.left" timestamp="1586012924935">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1235" height="120" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585704594287" />
-    <state width="1235" height="122" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585623794491" />
-    <state x="335" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585404965361">
+    <state width="1207" height="51" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586012924935" />
+    <state width="1200" height="237" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585967568174" />
+    <state width="1207" height="51" key="GridCell.Tab.0.right" timestamp="1586012924936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1207" height="51" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586012924936" />
+    <state width="1200" height="237" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585967568174" />
+    <state x="335" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585954515322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="335" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585404965361" />
+    <state x="335" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585954515322" />
     <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585696956059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="449" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585696956059" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_webtables/WebtablesTests.java</url>
+          <line>100</line>
+          <properties class="com.cybertek.tests.day15_webtables.WebtablesTests" method="iterateTheTableUsingLoops">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/officeHours/day_04_03_2020/IFrameExamples.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

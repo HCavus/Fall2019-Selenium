@@ -29,7 +29,7 @@ public class ActionsClassDemo {
     public void hoverTest() throws InterruptedException {
       driver.get("http://practice.cybertekschool.com/hovers");
         Thread.sleep(3000);
-        WebElement target=driver.findElement(By.tagName("img"));
+        WebElement target=driver.findElement(By.xpath("(//img)[3]"));
 
         //moveToElement --> moves the mouse on top of the given webelement
         actions.moveToElement(target).perform();

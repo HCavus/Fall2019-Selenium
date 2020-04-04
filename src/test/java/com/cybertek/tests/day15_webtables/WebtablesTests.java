@@ -6,6 +6,7 @@ import com.cybertek.utilities.ConfigurationReader;
 import org.apache.commons.lang3.builder.ToStringExclude;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -118,5 +119,20 @@ public class WebtablesTests extends TestBase {
     }
     public int getColCount(){
         return driver.findElements(By.xpath("//table[@id='table1']//th")).size();
+    }
+
+    //get cell in relation to another cell
+    //verify that Jason has
+    @Test
+    public void verifyCellValueByOtherCell(){
+        String firstName="Jason";
+        String xpath="//table[@id='table1']//td[2][.='"+firstName+"']/../td[4]";
+    WebElement amount=driver.findElement(By.xpath(xpath));
+        System.out.println(amount.getText());
+        Assert.assertEquals(amount.getText(),"$100.00");
+    }
+    public String getXpathForValue(String value, String columnIdx){
+        String xpath="//table[@id='table1']//td[.='"+value+"']/../td["+columnIdx+"']";
+        return xpath;
     }
 }
