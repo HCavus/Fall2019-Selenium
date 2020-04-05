@@ -1,5 +1,5 @@
 package com.cybertek.base;
-
+import com.cybertek.pages.CreateCalendarEventsPage;
 import com.cybertek.pages.DashboardPage;
 import com.cybertek.pages.LoginPage;
 import com.cybertek.pages.VehiclesPage;
@@ -16,6 +16,7 @@ public abstract class VytrackTestBase {
    protected LoginPage loginpage;
    protected DashboardPage dashboardPage;
    protected VehiclesPage vehiclesPage;
+   protected CreateCalendarEventsPage createCalendarEventsPage;
     @BeforeMethod
     public void setUpMethod(){
         driver= Driver.getDriver();
@@ -24,6 +25,7 @@ public abstract class VytrackTestBase {
         loginpage=new LoginPage();
         dashboardPage=new DashboardPage();
         vehiclesPage=new VehiclesPage();
+       createCalendarEventsPage=new CreateCalendarEventsPage();
     }
     @AfterMethod
     public void tearDownMethod() throws InterruptedException {
