@@ -21,7 +21,6 @@ import java.util.concurrent.TimeUnit;
 
 public class ExplicitWaitExamples {
     WebDriver driver;
-
     //create web object
     WebDriverWait wait;
 
@@ -33,7 +32,6 @@ public class ExplicitWaitExamples {
 
     @AfterMethod
     public void tearDown() {
-
         driver.quit();
     }
 
@@ -98,8 +96,7 @@ public class ExplicitWaitExamples {
         username.sendKeys("tomsmith");
         password.sendKeys("SuperSecretPassword");
 
-        //wait for element to disappear
-        //wait until the overlay element disaapears
+        //wait until the overlay element disappears
         WebElement overlay=driver.findElement(By.className("loadingoverlay"));
         wait.until(ExpectedConditions.invisibilityOf(overlay));
 
@@ -133,9 +130,10 @@ public class ExplicitWaitExamples {
     public void test5Fluent() {
         driver.get("http://practice.cybertekschool.com/dynamic_loading/6");
         Wait<WebDriver> fluentWait = new FluentWait<>(driver).
-        withTimeout(Duration.ofSeconds(10)).
-                pollingEvery(Duration.ofSeconds(5)).
-                ignoring(NoSuchElementException.class).ignoring(ElementClickInterceptedException.class);
+                             withTimeout(Duration.ofSeconds(10)).
+                             pollingEvery(Duration.ofSeconds(5)).
+                             ignoring(NoSuchElementException.class).
+                             ignoring(ElementClickInterceptedException.class);
 
         WebElement submitBtn=fluentWait.until(driver->driver.findElement(By.xpath("//button[text()='Submit']")));
        driver.findElement(By.name("username")).sendKeys("tomsmith");

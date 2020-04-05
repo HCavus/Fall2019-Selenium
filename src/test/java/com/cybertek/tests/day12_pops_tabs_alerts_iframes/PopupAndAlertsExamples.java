@@ -53,13 +53,14 @@ public class PopupAndAlertsExamples {
     public void jssendKeys() throws InterruptedException {
         driver.get("http://practice.cybertekschool.com/javascript_alerts");
         WebElement button3=driver.findElement(By.xpath("//button[3]"));
-       // button3.click();
+       button3.click();
         Alert alert=null;
         try{
             alert=driver.switchTo().alert();
-            alert.sendKeys("Halime Cavus");
+            alert.sendKeys("Admiral Kunkka");
+            Thread.sleep(3000);
             alert.accept();
-        }catch(NoAlertPresentException e){
+       }catch(NoAlertPresentException e){
             e.printStackTrace();
         }
 

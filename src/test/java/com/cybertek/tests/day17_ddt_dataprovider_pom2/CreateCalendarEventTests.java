@@ -6,6 +6,8 @@ import com.cybertek.utilities.ConfigurationReader;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.testng.Assert.assertFalse;
 
 
@@ -18,11 +20,11 @@ public class CreateCalendarEventTests extends VytrackTestBase {
         assertFalse(createCalendarEventsPage.allDayEventCheckbox.isSelected());
     }
     @Test
-    public void repeatCheckBoxTest() throws InterruptedException {
+    public void repeatCheckBoxTest()  {
         loginpage.login(ConfigurationReader.getProperty("driver_username"),
                 ConfigurationReader.getProperty("driver_password"));
         driver.get("https://qa3.vytrack.com/calendar/event/create");
-      Thread.sleep(2000);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         assertFalse(createCalendarEventsPage.repeatCheckbox.isSelected());
     }
 

@@ -25,7 +25,7 @@ public class iFrameExample {
         Thread.sleep(3000);
 
         //we will switch to iframe
-        //TODO switch by id/name
+        //TODO switch by id/name  -   id='mce_0_ifr'
         driver.switchTo().frame("mce_0_ifr");
         WebElement textBox=driver.findElement(By.id("tinymce"));
         textBox.clear();
