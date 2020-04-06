@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class NavigateLoginTests extends TestBase {
+public class NegativeLoginTests extends TestBase {
     LoginPage loginPage;
 
     @BeforeMethod
@@ -25,7 +25,7 @@ public class NavigateLoginTests extends TestBase {
         String actual=loginPage.errorMessage.getText();
 
         Assert.assertTrue(loginPage.errorMessage.isDisplayed());
-        Assert.assertEquals(actual,"Invalid user name or password");
+        Assert.assertEquals(actual,"Invalid user name or password.");
 
     }
     @Test
@@ -37,6 +37,6 @@ public class NavigateLoginTests extends TestBase {
         String actual=loginPage.errorMessage.getText();
 
         Assert.assertTrue(loginPage.errorMessage.isDisplayed());
-        Assert.assertEquals(actual,"Invalid user name or password");
+        Assert.assertEquals(actual,"Invalid user name or password.");
     }
 }

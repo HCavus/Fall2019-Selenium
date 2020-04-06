@@ -33,11 +33,13 @@ public class PropertiesExample {
     }
     @Test
     public void test2(){
+
         WebDriver driver= WebDriverFactory.getDriver("chrome");
 
         //get the url from props file
         String url=ConfigurationReader.getProperty("url");
        driver.get(url);
+        System.out.println(url);
        driver.close();
 
         String str=Singleton.getInstance();

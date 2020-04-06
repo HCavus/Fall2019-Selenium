@@ -13,7 +13,7 @@ public class PageHeadersTests extends VytrackTestBase {
     /*
     1.go to qa3.vytrack.com
     2.login as driver
-    3.verify hearder is "Quick Launch"
+    3.verify header is "Quick Launch"
      */
     @Test
     public void dashboardPageTest(){

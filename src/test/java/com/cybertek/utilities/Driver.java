@@ -13,7 +13,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 
-public class Driver {
+public class Driver { //this class is a singleton design pattern
     private Driver(){ }
 
     private static WebDriver driver;

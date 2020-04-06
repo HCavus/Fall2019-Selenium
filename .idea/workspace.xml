@@ -3,10 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="cb767049-1db7-45e2-b1a8-c897c0fa2d03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/iFrameExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/iFrameExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ExplicitWaitExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_waits_synchronization/ExplicitWaitExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytrackTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/base/VytrackTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/FileUploadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/FileUploadTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/PropertiesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/PropertiesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/TestingTestBaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/TestingTestBaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_webtables/WebtablesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_webtables/WebtablesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/NavigateLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/NegativeLoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/PageHeadersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_page_object_model/PageHeadersTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_ddt_dataprovider_pom2/CreateCalendarEventTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_ddt_dataprovider_pom2/CreateCalendarEventTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_ddt_dataprovider_pom2/MenuOptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_ddt_dataprovider_pom2/MenuOptionsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +55,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.ExplicitWaitExamples.test5WaitForInvisible">
-    <configuration name="ExplicitWaitExamples.test1TitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateCalendarEventTests.repeatCheckBoxTest">
+    <configuration name="CreateCalendarEventTests.allDayEventCheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
-      <option name="METHOD_NAME" value="test1TitleTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.CreateCalendarEventTests" />
+      <option name="METHOD_NAME" value="allDayEventCheckBoxTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,17 +74,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWaitExamples.test2WaitForVisible" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateCalendarEventTests.repeatCheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
-      <option name="METHOD_NAME" value="test2WaitForVisible" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.CreateCalendarEventTests" />
+      <option name="METHOD_NAME" value="repeatCheckBoxTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,17 +92,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWaitExamples.test3WaitForVisibleFail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuOptionsTests.ddtTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
-      <option name="METHOD_NAME" value="test3WaitForVisibleFail" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.MenuOptionsTests" />
+      <option name="METHOD_NAME" value="ddtTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,17 +110,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWaitExamples.test4WaitForClickable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuOptionsTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
-      <option name="METHOD_NAME" value="test4WaitForClickable" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.MenuOptionsTests" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,17 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWaitExamples.test5WaitForInvisible" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuOptionsTests.testAllOptionsDriver" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall2019seleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_waits_synchronization.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_waits_synchronization" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_waits_synchronization.ExplicitWaitExamples" />
-      <option name="METHOD_NAME" value="test5WaitForInvisible" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_ddt_dataprovider_pom2.MenuOptionsTests" />
+      <option name="METHOD_NAME" value="testAllOptionsDriver" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ExplicitWaitExamples.test5WaitForInvisible" />
-        <item itemvalue="TestNG.ExplicitWaitExamples.test4WaitForClickable" />
-        <item itemvalue="TestNG.ExplicitWaitExamples.test3WaitForVisibleFail" />
-        <item itemvalue="TestNG.ExplicitWaitExamples.test2WaitForVisible" />
-        <item itemvalue="TestNG.ExplicitWaitExamples.test1TitleTest" />
+        <item itemvalue="TestNG.CreateCalendarEventTests.repeatCheckBoxTest" />
+        <item itemvalue="TestNG.CreateCalendarEventTests.allDayEventCheckBoxTest" />
+        <item itemvalue="TestNG.MenuOptionsTests.testAllOptionsDriver" />
+        <item itemvalue="TestNG.MenuOptionsTests.ddtTest" />
+        <item itemvalue="TestNG.MenuOptionsTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -218,26 +226,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="420" y="81" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1585776671540" />
-    <state width="1207" height="158" key="GridCell.Tab.0.bottom" timestamp="1586128732544">
+    <state width="1207" height="170" key="GridCell.Tab.0.bottom" timestamp="1586191754861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1207" height="158" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586119797095" />
-    <state width="1207" height="158" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586128732544" />
-    <state width="1207" height="158" key="GridCell.Tab.0.center" timestamp="1586128732544">
+    <state width="1207" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586191754861" />
+    <state width="1207" height="170" key="GridCell.Tab.0.center" timestamp="1586191754861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1207" height="158" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586119797095" />
-    <state width="1207" height="158" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586128732544" />
-    <state width="1207" height="158" key="GridCell.Tab.0.left" timestamp="1586128732544">
+    <state width="1207" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586191754861" />
+    <state width="1207" height="170" key="GridCell.Tab.0.left" timestamp="1586191754860">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1207" height="158" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586119797095" />
-    <state width="1207" height="158" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586128732544" />
-    <state width="1207" height="158" key="GridCell.Tab.0.right" timestamp="1586128732544">
+    <state width="1207" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586191754860" />
+    <state width="1207" height="170" key="GridCell.Tab.0.right" timestamp="1586191754861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1207" height="158" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1280.680@0.0.1280.680" timestamp="1586119797095" />
-    <state width="1207" height="158" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586128732544" />
+    <state width="1207" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586191754861" />
     <state x="335" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585954515322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -256,14 +264,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_webtables/WebtablesTests.java</url>
-          <line>100</line>
-          <properties class="com.cybertek.tests.day15_webtables.WebtablesTests" method="iterateTheTableUsingLoops">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12_pops_tabs_alerts_iframes/PopupAndAlertsExamples.java</url>
           <line>30</line>
           <properties class="com.cybertek.tests.day12_pops_tabs_alerts_iframes.PopupAndAlertsExamples" method="jsAlerts">
@@ -271,25 +271,18 @@
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_test_base_props_driver/PropertiesExample.java</url>
+          <line>48</line>
+          <properties class="com.cybertek.tests.day14_test_base_props_driver.PropertiesExample" method="test3">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/officeHours/day_04_03_2020/IFrameExamples.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_ddt_dataprovider_pom2/UserInfoDataDrivenTests2.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_ddt_dataprovider_pom2/MenuOptionsTests.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_ddt_dataprovider_pom2/CreateCalendarEventTests.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

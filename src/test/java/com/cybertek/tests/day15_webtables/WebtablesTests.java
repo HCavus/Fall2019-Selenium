@@ -33,7 +33,7 @@ public class WebtablesTests extends TestBase {
     @Test
     public void getHeaders(){
         //get all headers in a single element
-      WebElement header=driver.findElement(By.tagName("thead"));
+      WebElement header=driver.findElement(By.tagName("thead")); //Last Name First Name Email Due Web Site Action
         System.out.println(header.getText());
 
         List<WebElement> headers=driver.findElements(By.xpath("//table[@id='table1']//th"));
@@ -43,7 +43,7 @@ public class WebtablesTests extends TestBase {
             System.out.println(each.getText());
         }
         //prints in a single line using BrowserUtils to get the list of the headers as text
-        System.out.println(BrowserUtils.getElementsText(headers));
+        System.out.println(BrowserUtils.getElementsText(headers)); //[Last Name, First Name, Email, Due, Web Site, Action]
     }
     //GET TABLE SIZE
     @Test
@@ -68,13 +68,13 @@ public class WebtablesTests extends TestBase {
         WebElement row=driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[1]"));
         System.out.println(row.getText());
 
-        //get the first row (in the body) dynamic xpath
+        //get the third row (in the body) dynamic xpath
         String xpath=getTableRowXPath(3);
         row=driver.findElement(By.xpath(xpath));
         System.out.println(row.getText());
     }
-    //getTableRowXPath based on index
 
+    //getTableRowXPath based on index
     public static String getTableRowXPath(int index){
         String xpath="//table[@id='table1']/tbody/tr["+index+"]";
         return xpath;
@@ -95,8 +95,8 @@ public class WebtablesTests extends TestBase {
         String xpath="//table[@id='table1']/tbody/tr["+row+"]/td["+column+"]";
         return xpath;
     }
-    //GO THROUGH THE TABLE USING LOOPS AND GET AL  VALUES
 
+    //GO THROUGH THE TABLE USING LOOPS AND GET AL  VALUES
     @Test
     public void iterateTheTableUsingLoops(){
         //get the number of rows
@@ -126,13 +126,13 @@ public class WebtablesTests extends TestBase {
     @Test
     public void verifyCellValueByOtherCell(){
         String firstName="Jason";
-        String xpath="//table[@id='table1']//td[2][.='"+firstName+"']/../td[4]";
+        String xpath="//table[@id='table1']//td[2][.='"+firstName+"']/../td[4]"; //finds the parent then child again
     WebElement amount=driver.findElement(By.xpath(xpath));
         System.out.println(amount.getText());
         Assert.assertEquals(amount.getText(),"$100.00");
     }
     public String getXpathForValue(String value, String columnIdx){
-        String xpath="//table[@id='table1']//td[.='"+value+"']/../td["+columnIdx+"']";
+        String xpath="//table[@id='table1']//td[2][.='"+value+"']/../td["+columnIdx+"']";
         return xpath;
     }
 }

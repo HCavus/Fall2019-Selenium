@@ -22,7 +22,10 @@ public class FileUploadTests extends TestBase {
 
         WebElement file_upload=driver.findElement(By.linkText("File Upload"));
         file_upload.click();
+
         WebElement fileInput=driver.findElement(By.id("file-upload"));
+        //location of the file: go to file, click right, click properties, copy location
+        //String location="C:\\Users\\halim\\Desktop"  and add the file name at the end
         fileInput.sendKeys("C:\\Users\\halim\\Desktop\\my_file.txt");
 
         WebElement submit=driver.findElement(By.id("file-submit"));

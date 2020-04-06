@@ -15,4 +15,14 @@ public class TestingTestBaseTests extends TestBase {
     System.out.println(driver.getTitle());
     System.out.println(driver.getCurrentUrl());
 }
+    @Test
+    public void testVytrackTitle(){
+    String url=ConfigurationReader.getProperty("vytrack_url");
+    driver.get(url);
+
+    Assert.assertEquals(driver.getTitle(),"Login");
+        System.out.println("Title: "+driver.getTitle());
+        System.out.println("Current url: "+driver.getCurrentUrl());
+        Assert.assertFalse(url.equals(driver.getCurrentUrl()));
+    }
 }

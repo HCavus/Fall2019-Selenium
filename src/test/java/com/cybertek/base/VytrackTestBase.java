@@ -13,10 +13,10 @@ import org.testng.annotations.BeforeMethod;
 public abstract class VytrackTestBase {
     protected WebDriver driver;
     protected WebDriverWait wait;
-   protected LoginPage loginpage;
-   protected DashboardPage dashboardPage;
-   protected VehiclesPage vehiclesPage;
-   protected CreateCalendarEventsPage createCalendarEventsPage;
+    protected LoginPage loginpage;
+    protected DashboardPage dashboardPage;
+    protected VehiclesPage vehiclesPage;
+    protected CreateCalendarEventsPage createCalendarEventsPage;
     @BeforeMethod
     public void setUpMethod(){
         driver= Driver.getDriver();
@@ -25,7 +25,7 @@ public abstract class VytrackTestBase {
         loginpage=new LoginPage();
         dashboardPage=new DashboardPage();
         vehiclesPage=new VehiclesPage();
-       createCalendarEventsPage=new CreateCalendarEventsPage();
+        createCalendarEventsPage=new CreateCalendarEventsPage();
     }
     @AfterMethod
     public void tearDownMethod() throws InterruptedException {

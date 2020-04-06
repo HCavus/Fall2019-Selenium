@@ -1,13 +1,11 @@
 package com.cybertek.utilities;
-
 import java.io.FileInputStream;
-
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationReader {
-    private static Properties properties=new Properties();;
-    //static method is used to initiliaze the variable , and run the code one time in the beginning
+    private static Properties properties=new Properties();
+    //static method is used to initialize the variable , and run the code one time in the beginning
     static {
         try {
             //reads file in java. we need to pass the path of the file

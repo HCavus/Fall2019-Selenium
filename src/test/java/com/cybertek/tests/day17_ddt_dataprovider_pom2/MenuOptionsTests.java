@@ -45,14 +45,4 @@ public class MenuOptionsTests extends VytrackTestBase {
 
         };
     }
-    //login as driver
-    //verify that driver can see menu options Fleet, Customer, Activities,System
-    @Test
-    public void testAllOptionsDriver(){
-        loginpage.login(ConfigurationReader.getProperty("driver_username"),
-                ConfigurationReader.getProperty("driver_password"));
-        List<String> expected= Arrays.asList("Fleet","Customers","Activities","System");
-        List<String> actual= BrowserUtils.getElementsText(dashboardPage.menuOptions);
-        assertEquals(actual,expected);
-    }
 }
